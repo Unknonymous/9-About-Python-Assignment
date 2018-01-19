@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /*border: 1px solid red;*/
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#wrapper{
+    width: 970px;
+    background-color: rgb(0, 88, 139);
+    margin: auto;
+}
+#header{
+    display: inline-block;
+}
+#tag{
+    height: 70px;
+    width: auto;
+    margin: 20px;
+    display: inline-block;
+}
+#right{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    position: relative;
+    left: 400px;
+}
+#size{
+    text-align: right;
+    position: relative;
+    right: 30px;
+}
+#white{
+    color: white;
+}
+.yellow{
+    color: yellow;
+    text-decoration: underline;
+}
+#gray{
+    background-color: gray;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+}
+#searchbox{
+    display: inline-block;
+}
+input{
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    color: gray;
+}
+#go{
+    display: inline-block;
+}
+#butt{
+    background-color: rgb(51, 74, 112);
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+#banner{
+    width: 810px;
+    background-color: rgb(68, 126, 180);
+    box-shadow: 2px 2px;
+    border-radius: 5px;
+    padding: 0px 30px 0px 30px;
+    position: relative;
+    left: 100px;
+}
+.item{
+    color: white;
+    font-family: "arial", "verdana", "sans-serif";
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 10px 20px 10px 20px;
+}
+#maininfo{
+    width: 810px;
+    position: relative;
+    left: 40px;
+    margin: auto;
+    margin-top: 20px;
+}
+#list1{
+    text-align: center;
+    display: inline-block;
+    list-style: none;      
+}
+.list1item:before{
+    content: "\00BB \0020";
+    color: yellow;
+}
+.list1item{
+    color: white;
+    padding-top: 5px;
+}
+.listspan{
+    text-decoration: underline;
+}
+#righter{
+    display: inline-block;
+    vertical-align: top;
+}
+#history{
+    display: block;
+    margin: auto;
+    padding-left: 30px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    font-family: "arial", "verdana", "sans-serif";
+    font-size: .8em;
+}
+#zenWrap{
+    display: inline-block;
+    margin-left: 200px;
+    left: 100px;
+}
+#zen{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.zenItem{
+    display: inline-block;
+    color: yellow;
+    font-family: "arial", "verdana", "sans-serif";
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: lighter;
+}
+#zenLast{
+    color: white;
+    font-size: .8em;
+    font-family: "arial", "verdana", "sans-serif";
+    margin-top: 10px;
+}
+#bottomBanner{
+    height: 200px;
+    width: 850px;
+    background-color: white;
+    padding: 0px 60px 0px 118px;
+}
+#twoList{
+    width: 810px;
+    margin-bottom: 10px;
+}
+#gettingStarted{
+    width: 390px;
+    margin-top: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+    font-family: "arial", "verdana", "sans-serif";
+    border-style: solid none none none;
+    border-top-width: 3px;
+    border-top-color: rgb(68, 126, 180);
+}
+#applications{
+    width: 390px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+    font-family: "arial", "verdana", "sans-serif";
+    border-style: solid none none none;
+    border-top-width: 3px;
+    border-top-color: rgb(68, 126, 180);
+}
+.titles{
+    margin: 5px 0px 5px 0px;
+}

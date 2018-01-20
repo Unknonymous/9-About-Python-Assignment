@@ -129,7 +129,6 @@ input{
     vertical-align: top;
 }
 .zenItem{
-    display: inline-block;
     color: yellow;
     font-family: "arial", "verdana", "sans-serif";
     margin-top: 10px;
@@ -140,10 +139,10 @@ input{
     color: white;
     font-size: .8em;
     font-family: "arial", "verdana", "sans-serif";
-    margin-top: 10px;
+    margin: 10px 0px 20px 0px;
 }
 #bottomBanner{
-    height: 200px;
+    height: auto;
     width: 850px;
     background-color: white;
     padding: 0px 60px 0px 118px;
@@ -177,4 +176,39 @@ input{
 }
 .titles{
     margin: 5px 0px 5px 0px;
+}
+.reasons{
+    margin-bottom: 5px;
+}
+.bluep{
+    color: rgb(33, 127, 158);
+}
+.botmlists{
+    list-style-type: square;
+    width: 350px;
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.botmlists li{
+    padding-top: 5px;
+}
+#foottable{
+    width: 100%;
+    text-align: center;
+    font-family: "arial", "verdana", "sans-serif";
+    color: rgb(43, 156, 194);
+    
+}
+#tab{
+    padding-top: 40px;
+    margin: auto;
+}
+.bottRow{
+    padding: 0px 40px 0px 0px;
+    /*border: solid 1px red;*/
+}
+#copyr{
+    padding: 10px 0px 5px 0px;
+    font-size: .8em;
 }
